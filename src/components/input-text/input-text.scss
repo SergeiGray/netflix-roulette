@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.component-input {
+  min-height: 70px;
+  width: 100%;
+  padding: 0 15px;
+  font-size: 2rem;
+  color: $color-white;
+  border-radius: 4px;
+  border: none;
+  background-color: $color-dark-gray;
+  opacity: 0.8;
+}

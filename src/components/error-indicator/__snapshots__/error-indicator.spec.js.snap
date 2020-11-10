@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorIndicator component should render ErrorIndicator component 1`] = `
+<div
+  className="error-indicator text-danger"
+>
+  <img
+    alt="Error"
+    src="test-file-stub"
+  />
+  <span>
+    An error occurred.
+  </span>
+  <span>
+    The support team is already working on the fix.
+  </span>
+</div>
+`;

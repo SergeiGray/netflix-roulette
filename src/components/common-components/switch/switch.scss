@@ -1,0 +1,25 @@
+@import '../../../styles/variables';
+
+.switch {
+  &__title,
+  &__button {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: $color-white;
+  }
+
+  &__title {
+    letter-spacing: 0.2rem;
+  }
+
+  .btn-secondary {
+    background-color: $color-dark-gray;
+    ;
+    opacity: 0.8;
+    border: none;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

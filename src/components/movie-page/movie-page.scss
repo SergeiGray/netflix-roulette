@@ -1,0 +1,45 @@
+@import '../../styles/variables.scss';
+
+.movie-page {
+  color: $color-white;
+
+  &__image {
+    width: 350px;
+    height: 500px;
+  }
+
+  &__title {
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0;
+    margin-right: 2rem;
+  }
+
+  &__rating {
+    width: 5rem;
+    height: 5rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid $color-white;
+    border-radius: 50%;
+    color: forestgreen;
+    font-size: 2rem;
+  }
+
+  &__tagline {
+    font-size: 1.5rem;
+  }
+
+  &__date,
+  &__runtime {
+    font-size: 2rem;
+    color: $color-red;
+  }
+
+  &__overview {
+    font-size: 1.5rem;
+  }
+}

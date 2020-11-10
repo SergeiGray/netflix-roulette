@@ -1,0 +1,32 @@
+.component-row {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+
+  &__item {
+    margin: 0;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+
+  &.space {
+    justify-content: space-between;
+  }
+
+  &.fix {
+    .component-row__item:not(last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.align-center {
+    align-items: center;
+  }
+}
+

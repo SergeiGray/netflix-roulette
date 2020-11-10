@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.movies-card {
+  width: 350px;
+  background-color: transparent;
+  color: $color-light-gray;
+
+  &__image {
+    height: 500px;
+    cursor: pointer;
+  }
+
+  &__bottom-row {
+    min-height: 50px;
+    align-items: flex-end;
+  }
+}

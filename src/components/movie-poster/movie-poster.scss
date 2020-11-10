@@ -1,0 +1,17 @@
+@mixin size {
+  height: 500px;
+  width: 350px;
+}
+
+.poster {
+  @include size;
+
+  &__placeholder {
+    @include size;
+    background-image: url('https://via.placeholder.com/350x500/F65261/FFFFFF?text=Sorryan,+No+Image');
+  }
+
+  &__image {
+    @include size;
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+
+.movies {
+  min-height: 230px;
+  background-color: $color-dark-gray;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  &__control-panel {
+    min-height: 90px;
+    background-color: $color-gray;
+  }
+
+  &__no-found {
+    font-size: 2rem;
+    color: $color-white;
+  }
+}

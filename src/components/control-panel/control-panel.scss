@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+
+.control-panel {
+  background-color: $color-gray;
+
+  .container {
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+  }
+}

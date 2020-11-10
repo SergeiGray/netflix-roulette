@@ -1,0 +1,11 @@
+.header {
+  min-height: 50px;
+  margin-bottom: 3rem;
+
+  a {
+    &:hover {
+      border-bottom: none;
+      text-decoration: none;
+    }
+  }
+}
